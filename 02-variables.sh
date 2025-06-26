@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PERSON1=Ramesh
-PERSON2=suresh
+PERSON1=kalyan
+PERSON2=Bharat
 
 conversation between two people
 
