@@ -1,9 +1,12 @@
 #!/bin/bash
 
+PERSON1=Ramesh
+PERSON2=suresh
+
 conversation between two people
 
-echo "Ramesh:: hello suresh,good morning"
-echo "suresh:: hi Ramesh, very good morning"
-echo "Ramesh:: how are you suresh"
-echo "suresh:: I'm good, what about you"
-echo "Ramesh::  good thanks for asking"
+echo "$PERSON1:: hello $PERSON2,good morning"
+echo "$PERSON2:: hi $PERSON1, very good morning"
+echo "$PERSON1:: how are you $PERSON2"
+echo "$PERSON2:: I'm good, what about you"
+echo "$PERSON1::  good thanks for asking"
