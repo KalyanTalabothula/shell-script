@@ -10,7 +10,7 @@ else
     echo "you are in root user mode"
 fi
 
-yum install mysqffl -y
+yum install mysqfffl -y
 
 if ( $? -ne 0)
 then 
