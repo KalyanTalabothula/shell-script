@@ -12,7 +12,7 @@ fi
 
 yum install mysqfffl -y
 
-if ( $? -ne 0)
+if [ $? -ne 0 ]
 then 
     echo "ERROR: Installing Mysql is failed"
     exit 1
