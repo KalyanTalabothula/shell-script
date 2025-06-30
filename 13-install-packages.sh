@@ -35,10 +35,10 @@ fi
 
 for package in $@
 do 
-    yum list installed $package  #check installed or not
+    yum list installed $package &>> $LOGFILE #check installed or not
     if [ $? -ne 0 ]  #if not installed
     then 
-        yum install $package -y # install the package
+        yum install $package -y &>> $LOGFILE # install the package
         VALIDATE $? "installation of $package" #Validate
     else
         echo -e "$package is already installed ... $Y SKIPPING $N"
